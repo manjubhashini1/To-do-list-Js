@@ -30,3 +30,12 @@ function deleteTask(event) {
     const task = event.target.parentElement;
     taskList.removeChild(task);
 }
+
+const arr = ["abcde", 
+"fghij",
+"klmno",
+"pqrst",
+"uvwxy",
+"z"
+];
+console.log(...arr.map(str => str.split('')));
